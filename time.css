@@ -1,0 +1,41 @@
+#outer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    align-items: center;
+    background-color: brown;
+    color: aliceblue;
+    justify-content: space-around;
+
+}
+#inner{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    background-color: brown;
+}
+#players{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+#player1{font-size: 35px;}
+#player2{
+    font-size: 35px;
+}
+#swap{width: 80px;
+    font-size: 21px;}
+#reset{font-size: 21px;
+    background-color: darkgoldenrod;
+    color: floralwhite;
+}
+#time{font-size: 21px;
+    background-color: darkgoldenrod;
+    color: floralwhite;
+}
+#start{
+font-size: 21px;
+background-color: darkgoldenrod;
+    color: floralwhite;
+}
