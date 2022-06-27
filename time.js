@@ -17,18 +17,18 @@ swap.addEventListener("click",swapfun);
 reset.addEventListener("click",resetfun);
 function startfun(){
   clearInterval(interval);
-  interval=setInterval(starttimes,100);
+  interval=setInterval(starttimes,1000);
   console.log(tens)
   start.disabled=true;  
   }
  function swapfun(){
   clearInterval(interval);
   if (check==true){
-  interval=setInterval(starttimes1,100);
+  interval=setInterval(starttimes1,1000);
   check=false;
   }
   else{
-    interval=setInterval(starttimes,100);
+    interval=setInterval(starttimes,1000);
     check=true;
   }
 }
